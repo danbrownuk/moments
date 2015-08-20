@@ -1,5 +1,7 @@
 #moments
 
+A native iPhone app developed with Swift.
+
 Open the project in Xcode and build to an iPhone 6 simulator. 
 
 
