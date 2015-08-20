@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3797C0741B84C75200199DC4 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3797C0741B84C75200199DC4 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3797C0781B84C75200199DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3797C0791B84C75200199DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3797C07B1B84C75200199DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3797C07E1B84C75200199DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3797C0801B84C75200199DC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3797C0831B84C75200199DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3797C0891B84C75200199DC4 /* TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3797C0891B84C75200199DC4 /* MomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3797C08E1B84C75200199DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3797C08F1B84C75200199DC4 /* TemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTests.swift; sourceTree = "<group>"; };
 		379BF6851B86306600568ED8 /* DonateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateController.swift; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 		3797C0751B84C75200199DC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3797C0741B84C75200199DC4 /* Template.app */,
-				3797C0891B84C75200199DC4 /* TemplateTests.xctest */,
+				3797C0741B84C75200199DC4 /* Moments.app */,
+				3797C0891B84C75200199DC4 /* MomentsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3797C0731B84C75200199DC4 /* Template */ = {
+		3797C0731B84C75200199DC4 /* Moments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3797C0931B84C75200199DC4 /* Build configuration list for PBXNativeTarget "Template" */;
+			buildConfigurationList = 3797C0931B84C75200199DC4 /* Build configuration list for PBXNativeTarget "Moments" */;
 			buildPhases = (
 				3797C0701B84C75200199DC4 /* Sources */,
 				3797C0711B84C75200199DC4 /* Frameworks */,
@@ -133,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = Template;
+			name = Moments;
 			productName = Template;
-			productReference = 3797C0741B84C75200199DC4 /* Template.app */;
+			productReference = 3797C0741B84C75200199DC4 /* Moments.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3797C0881B84C75200199DC4 /* TemplateTests */ = {
+		3797C0881B84C75200199DC4 /* MomentsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3797C0961B84C75200199DC4 /* Build configuration list for PBXNativeTarget "TemplateTests" */;
+			buildConfigurationList = 3797C0961B84C75200199DC4 /* Build configuration list for PBXNativeTarget "MomentsTests" */;
 			buildPhases = (
 				3797C0851B84C75200199DC4 /* Sources */,
 				3797C0861B84C75200199DC4 /* Frameworks */,
@@ -151,9 +151,9 @@
 			dependencies = (
 				3797C08B1B84C75200199DC4 /* PBXTargetDependency */,
 			);
-			name = TemplateTests;
+			name = MomentsTests;
 			productName = TemplateTests;
-			productReference = 3797C0891B84C75200199DC4 /* TemplateTests.xctest */;
+			productReference = 3797C0891B84C75200199DC4 /* MomentsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3797C06F1B84C75200199DC4 /* Build configuration list for PBXProject "Template" */;
+			buildConfigurationList = 3797C06F1B84C75200199DC4 /* Build configuration list for PBXProject "Moments" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3797C0731B84C75200199DC4 /* Template */,
-				3797C0881B84C75200199DC4 /* TemplateTests */,
+				3797C0731B84C75200199DC4 /* Moments */,
+				3797C0881B84C75200199DC4 /* MomentsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +239,7 @@
 /* Begin PBXTargetDependency section */
 		3797C08B1B84C75200199DC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3797C0731B84C75200199DC4 /* Template */;
+			target = 3797C0731B84C75200199DC4 /* Moments */;
 			targetProxy = 3797C08A1B84C75200199DC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,7 +353,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Moments;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -366,7 +366,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Moments;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -385,7 +385,7 @@
 				);
 				INFOPLIST_FILE = TemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MomentsTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
 			};
 			name = Debug;
@@ -400,7 +400,7 @@
 				);
 				INFOPLIST_FILE = TemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MomentsTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
 			};
 			name = Release;
@@ -408,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3797C06F1B84C75200199DC4 /* Build configuration list for PBXProject "Template" */ = {
+		3797C06F1B84C75200199DC4 /* Build configuration list for PBXProject "Moments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3797C0911B84C75200199DC4 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3797C0931B84C75200199DC4 /* Build configuration list for PBXNativeTarget "Template" */ = {
+		3797C0931B84C75200199DC4 /* Build configuration list for PBXNativeTarget "Moments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3797C0941B84C75200199DC4 /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3797C0961B84C75200199DC4 /* Build configuration list for PBXNativeTarget "TemplateTests" */ = {
+		3797C0961B84C75200199DC4 /* Build configuration list for PBXNativeTarget "MomentsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3797C0971B84C75200199DC4 /* Debug */,
