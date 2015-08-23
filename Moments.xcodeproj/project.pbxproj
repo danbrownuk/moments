@@ -63,7 +63,7 @@
 		3797C06B1B84C75200199DC4 = {
 			isa = PBXGroup;
 			children = (
-				3797C0761B84C75200199DC4 /* Template */,
+				3797C0761B84C75200199DC4 /* Moments */,
 				3797C08C1B84C75200199DC4 /* TemplateTests */,
 				3797C0751B84C75200199DC4 /* Products */,
 			);
@@ -78,7 +78,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3797C0761B84C75200199DC4 /* Template */ = {
+		3797C0761B84C75200199DC4 /* Moments */ = {
 			isa = PBXGroup;
 			children = (
 				37E4CABC1B85270E0006050B /* SwiftyJSON.swift */,
@@ -90,6 +90,7 @@
 				3797C0771B84C75200199DC4 /* Supporting Files */,
 				379BF6851B86306600568ED8 /* DonateController.swift */,
 			);
+			name = Moments;
 			path = Template;
 			sourceTree = "<group>";
 		};
@@ -386,7 +387,7 @@
 				INFOPLIST_FILE = TemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = MomentsTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moments.app/Moments";
 			};
 			name = Debug;
 		};
@@ -401,7 +402,7 @@
 				INFOPLIST_FILE = TemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = MomentsTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moments.app/Moments";
 			};
 			name = Release;
 		};
